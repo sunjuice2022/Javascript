@@ -16,17 +16,17 @@ console.log(222)
 
 switch (role) {
     case roles[0]:
-    console.log('hello');
-    break;
+        console.log('hello');
+        break;
     case roles[1]:
-    console.log('hi');
-    break;
+        console.log('hi');
+        break;
     case roles[2]:
         console.log('???');
         break;
-        default:
-            console.log('...');
-            break;
+    default:
+        console.log('...');
+        break;
 }
 }
 
@@ -233,3 +233,5 @@ span.addEventListener('click', () =>{
 
 
 }
+
+
