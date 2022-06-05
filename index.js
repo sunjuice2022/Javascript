@@ -234,4 +234,46 @@ span.addEventListener('click', () =>{
 
 }
 
+{
+//求和-方法1
+let total = 0,
+array=[1,2,3,4,5,6,7,8,9,10]
+for (i=0; i<array.length; i ++) {
+    total += array[i]
+}
+console.log(total)
+//求和-方法2
+total = 0
+array.forEach (num => {
+    total += num
+})
+console.log(total);
+}
+
+{
+    //九九乘法表
+    let str = ''
+    for (let i = 1; i <10; i ++) {
+        for (let j=1; j<=i; j ++) {
+            str += `${i}*${j} = ${i*j} `;
+            if (i === j) {
+                str += '\n'
+            }
+
+        }
+    }
+    console.log(str);
+}
+
+{
+function fun6(a,b) {
+   
+    return a+b
+    console.log('here2') //不会出现
+}
+ console.log(fun6(1, 3))
+
+
+}
+
 
